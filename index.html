@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Firewall & IDS</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cybersecurity Firewall & IDS</h1>
+        </header>
+        <main>
+            <section id="log-display">
+                <h2>Network Logs</h2>
+                <button onclick="downloadPDF()">Download PDF</button>
+                <button onclick="clearLogs()">Clear Logs</button>
+                <table id="log-table">
+                    <!-- Log entries will be dynamically inserted here -->
+                </table>
+            </section>
+            <section id="rule-management">
+                <h2>Rule Management</h2>
+                <form id="rule-form">
+                    <label for="ip">IP Address:</label>
+                    <input type="text" id="ip" name="ip">
+                    <label for="action">Action:</label>
+                    <select id="action" name="action">
+                        <option value="block">Block</option>
+                        <option value="allow">Allow</option>
+                    </select>
+                    <button type="button" onclick="applyRule()">Apply Rule</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Cybersecurity Project</p>
+        </footer>
+        <script src="/static/script.js"></script>
+    </div>
+</body>
+</html>

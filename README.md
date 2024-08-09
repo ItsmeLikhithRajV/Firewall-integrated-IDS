@@ -2,16 +2,16 @@
 
 To run this follow the format to save file
 
-FIREWALL APP
-|
-|--app.py
-|
-|--templates/
-| |--index.html
-|
-|--static/
-| |--styles.css
-| |--script.js
-|
-|
-End
+FIREWALL APP        <br>
+|                   <br>
+|--app.py           <br>
+|                   <br>
+|--templates/       <br>
+| |--index.html     <br>
+|                   <br>
+|--static/          <br>
+| |--styles.css     <br>
+| |--script.js      <br>
+|                   <br>
+|                   <br>
+End                 <br>

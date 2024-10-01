@@ -18,4 +18,4 @@ End                 <br>
 
 
 
-IMAGES-FOR-SAME are in IMAGES folder
+IMAGES-FOR-SAME are provided in the before sections
